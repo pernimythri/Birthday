@@ -1,0 +1,141 @@
+h1{
+    display:flex;
+    position: fixed;
+    justify-content: center;
+    font-size:4rem;
+    top: 0;
+    color:white;
+    text-align: center;
+    font-size: 64px;
+    font-weight: bold;
+    animation: blink 1s infinite;
+
+}
+@keyframes blink {
+    0% { color: red; }
+    50% { color: yellow; }
+    100% { color: red; }
+}
+
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    flex-direction: column;
+
+        background-image: url('loveballoon.jpg'); /* Replace with your image file */
+        background-size: cover; /* Covers the entire page */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents repeating */
+        height: 100vh; /* Ensures it takes full screen height */
+        margin: 0; /* Removes default margin */
+    }
+    
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.quote-image {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.quote-image:hover {
+    transform: scale(1.1);
+}
+
+.quote-container {
+    display: none;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.quote-text {
+    font-size: 23px;
+    line-height: 1.5;
+    color:white;
+}
+
+
+
+@keyframes crackerAnimation {
+    0% {
+        transform: scale(0) rotate(0deg);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(2) rotate(180deg);
+        opacity: 0.6;
+    }
+    100% {
+        transform: scale(0) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+.cracker {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color:rgb(148, 175, 24);
+    border-radius: 50%;
+    animation: crackerAnimation 2s infinite;
+}
+
+.cracker:nth-child(1) {
+    background-color: red;
+}
+.cracker:nth-child(2) {
+    background-color: rgb(180, 41, 207);
+}
+.cracker:nth-child(3) {
+    background-color: blue;
+}
+.cracker:nth-child(4) {
+    background-color: green;
+}
+.cracker:nth-child(5) {
+    background-color: pink;
+}
+.cracker:nth-child(6) {
+    background-color: orange;
+}
+.cracker:nth-child(7) {
+    background-color: rgb(27, 67, 199);
+}
+.cracker:nth-child(8) {
+    background-color: rgb(238, 30, 134);
+}
+.cracker:nth-child(9) {
+    background-color: rgb(19, 199, 73);
+}
+
+.cracker-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 1; 
+}
+
