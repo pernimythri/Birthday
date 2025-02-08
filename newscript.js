@@ -6,8 +6,9 @@ const quotes = {
     4:  "Motivation kavala nayana!! Time is proportion to money ,Invest time on valuable things ...Aah valuable things example cheppana neney its MEE 😁 ",
     5: "Don't do drama to get things from others ..Be yourself",
     6: "Be funnier, even when I am angry and foolish 😜",
-    7: "Last one ... A small Story .. I came through this message from my family group..Everyone likes butterfly but not caterpillar, at one stage u will also become butterfly wait Karoh for that moment..Dont panic and dont stress in your life  <3 .. E quote ayitey mandhey -> Dont judge people by their looks and actions like caterpillar they will also become butterflies in their lives :)"
-};
+    7: "Last one ... A small Story .. I came through this message from my family group..Everyone likes butterfly but not caterpillar, at one stage u will also become butterfly wait Karoh for that moment..Dont panic and dont stress in your life  <3 .. E quote ayitey mandhey -> Dont judge people by their looks and actions like caterpillar they will also become butterflies in their lives :)",
+    8: "Okati cheppali ..I lied in my 3-1 My grade is not 7.98 ..I got 8.61 .. Happy birthday Dear Birthday Partner"
+    };
 
 // Get all the images and the quote container
 const images = document.querySelectorAll(".quote-image");
