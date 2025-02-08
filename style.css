@@ -1,0 +1,114 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: Black;
+    color:white;
+    background-size: cover;
+}
+
+@keyframes blink {
+    0% { color: red; }
+    50% { color: yellow; }
+    100% { color: red; }
+}
+
+h1{
+    text-align: center;
+    font-size: 4rem;
+    animation: blink 1s infinite;
+}
+
+.container {
+    display: flex; 
+    align-items: center; 
+    gap: 15px;  
+}
+
+.balloon{
+    width: 400px;
+    padding: 20px;
+    
+}
+
+@keyframes crackerAnimation {
+    0% {
+        transform: scale(0) rotate(0deg);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(2) rotate(180deg);
+        opacity: 0.6;
+    }
+    100% {
+        transform: scale(0) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+.cracker {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color:pink;
+    border-radius: 50%;
+    animation: crackerAnimation 2s infinite;
+}
+
+.cracker:nth-child(1) {
+    background-color: red;
+}
+.cracker:nth-child(2) {
+    background-color: rgb(180, 41, 207);
+}
+.cracker:nth-child(3) {
+    background-color: blue;
+}
+.cracker:nth-child(4) {
+    background-color: green;
+}
+.cracker:nth-child(5) {
+    background-color: pink;
+}
+.cracker:nth-child(6) {
+    background-color: orange;
+}
+.cracker:nth-child(7) {
+    background-color: rgb(27, 67, 199);
+}
+.cracker:nth-child(8) {
+    background-color: rgb(238, 30, 134);
+}
+.cracker:nth-child(9) {
+    background-color: rgb(19, 199, 73);
+}
+
+.cracker-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 1; 
+}
+
+.button-container {
+    margin-top: 20px;  
+}
+
+button.go-to-new-page {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color:yellow;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button.go-to-new-page:hover {
+    background-color:white;  
+}
