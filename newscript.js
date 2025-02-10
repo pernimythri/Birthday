@@ -1,7 +1,7 @@
 const quotes = {
     1: "Yentii na face meedha click chesthav...Friend ani vadhilesthunna",
-    2: "Vachadayya !! Yem ledhu I am Innocent ani chepdhamani 😎",
-    3: "You’re still the coolest person I know, even if you’re getting older! 😎🎂",
+    2: "Yem ledhu I am Innocent ani chepdhamani 😎",
+    3: "You’re still the coolest person I know, even if you’re getting older 😎🎂",
     4:  "Motivation kavala nayana!! Time is proportion to money ,Invest time on valuable things ...Aah valuable things example cheppana neney its MEE 😁 ",
     5: "Don't do drama to get things from others ..Be yourself",
     6: "Be funnier, even when I am angry and foolish 😜",
